@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Podcast Channel</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+  <header class="header container">
+    <a href="/">
+      <img class="header__logo" src="./assets/images/logo.svg" alt="logo"></a>
+    <nav>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu">
+        <li><a href="#episodes">EPISODIOS</a></li>
+        <li><a href="#about">NOSOTROS</a></li>
+        <li><a href="#guest">ENTREVISTAS</a></li>
+        <li><a href="#topic">TOPICOS</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="main">
+    <div class="container">
+      <div class="main__title">
+        <p>Hello <span>world </span> </p>
+        <p>pale blue dot</p>
+      </div>
+      <p class="main__subtitle">Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves
+        cada 15 días.</p>
+      <p class="main__subtitle subtitle--desktop"> El portal de podcasts que explora el mundo de la programación y la
+        tecnología.
+        Nuevos episodios, todos los jueves cada
+        15 días.</p>
+      <a class="button button--small" href="#about">CONOCÉ MAS</a>
+    </div>
+  </section>
+
+  <section id="episodes" class="episodes">
+    <div class="divider"></div>
+    <div class="container">
+      <p class="episodes__title">Episodios</p>
+      <div class="episodes__container">
+        <iframe class="episode__cover" src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt"
+          width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <iframe class="episode__cover" src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby"
+          width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <iframe class="episode__cover" src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv"
+          width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <iframe class="episode__cover" src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn"
+          width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="about" class="about container">
+    <img class="about__image" src="./assets/images/phone.png" alt="muestra un smartphone con una noticia">
+    <div class="about__text">
+      <p class="about__title">De dónde <br> venimos</p>
+      <div class="about__subtitle">
+        <p>Our posturings, our imagined self-importance, the delusion that we have some privileged
+          position in the
+          Universe, are
+          challenged by this point of pale light.
+          <br> Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness,
+          there
+          is no
+          hint that help will come from elsewhere to save us from ourselves.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="guest" class="invitadas">
+    <div class="container">
+      <p class="invitadas__title">Invitadas/os <br> estelares</p>
+    </div>
+    <div class="invitadas__grid">
+      <img class="img__invitadas" src="./assets/images/grace-hopper.png" alt="foto de Grace Hopper">
+      <img class="img__invitadas" src="./assets/images/Katie-Bouman.png" alt="foto de Katie Bouman">
+      <img class="img__invitadas" src="./assets/images/Margaret_Hamilton.png" alt="foto de Margaret Hamilton">
+      <img class="img__invitadas" src="./assets/images/img-04.png" alt="foto de la primer computadora">
+      <img class="img__invitadas" src="./assets/images/img-05.png" alt="foto del primer computador programable">
+      <img class="img__invitadas" src="./assets/images/susan-kare.png" alt="foto de Susan Kare">
+    </div>
+  </section>
+
+  <section id="topic" class="topic">
+    <div class="topic__container container">
+      <p class="topic__subtitle">Algunos de nuestros temas</p>
+      <div class="topic__icon">
+        <div class="icon">
+          <img src="./assets/images/icon1.svg" alt="trabajo remoto">
+          <p class="topic__p">Trabajo remoto</p>
+        </div>
+        <div class="icon">
+          <img src="./assets/images/icon2.svg" alt="repensando la 
+          programacion">
+          <p class="topic__p">Repensando la <br> programación</p>
+        </div>
+        <div class="icon">
+          <img src="./assets/images/icon3.svg" alt="bases de codigo">
+          <p class="topic__p">Bases del código</p>
+        </div>
+        <div class="icon">
+          <img src="./assets/images/icon4.svg" alt="seguridad informatica">
+          <p class="topic__p">Seguridad informática</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="rectangle">
+    <div class="news container">
+      <p class="rectangle__novedades">¿Querés las últimas novedades?</p>
+      <a class="button" href="#episodes">ESCUCHÁ LOS EPISODIOS</a>
+    </div>
+  </section>
+
+  <footer class="footer container">
+    <span class="footer__text">© 2019— Hello blue pale dot</span>
+    <div class="redes">
+      <a href="https://www.spotify.com/ar/" target="_blank"><i class="fa fa-spotify" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.instagram.com/" target="_blank">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+      </a>
+      <a href="https://twitter.com/" target="_blank"> <i class="fa fa-twitter" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook-official"
+          aria-hidden="true"></i></a>
+      <a href="https://telegram.org/" target="_blank"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+    </div>
+  </footer>
+</body>
+
+</html>
