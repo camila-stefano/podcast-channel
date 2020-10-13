@@ -14,6 +14,12 @@ body {
 
 /* Global */
 
+h2 {
+  font-weight: normal;
+  font-size: 1em;
+  margin: 2rem 0;
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
@@ -158,15 +164,12 @@ body {
 }
 
 .main__title {
-  padding-top: 1.5rem;
-  padding-bottom: 1rem;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 36px;
   line-height: 42px;
-  font-weight: normal;
 }
 
-.main__title p:last-child::after {
+.main__title::after {
   content: ".";
   color: #0000ec;
 }
@@ -217,8 +220,6 @@ body {
   color: white;
   letter-spacing: 0;
   line-height: 42px;
-  margin-right: auto;
-  margin-bottom: 1rem;
 }
 
 .episode__cover {
@@ -262,13 +263,11 @@ body {
 }
 
 .about__title {
-  margin: 2rem 0 0.5rem 0;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 36px;
   color: #060a24;
   letter-spacing: 0;
   line-height: 42px;
-  font-weight: normal;
 }
 
 .about__image {
@@ -290,13 +289,11 @@ body {
 
 .invitadas__title,
 .topic {
-  margin: 2rem 0 0.5rem 0;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 36px;
   color: #060a24;
   letter-spacing: 0;
   line-height: 42px;
-  font-weight: normal;
 }
 
 .topic__container {
@@ -307,9 +304,7 @@ body {
 
 .topic__subtitle {
   text-align: left;
-  margin-bottom: 2rem;
   width: 70%;
-  font-weight: normal;
 }
 
 .topic__p {
@@ -364,7 +359,6 @@ body {
   line-height: 42px;
   text-align: center;
   margin: 4.5rem 0.5rem 0.5rem;
-  font-weight: normal;
 }
 
 .footer {
@@ -397,27 +391,6 @@ body {
 }
 
 @media only screen and (min-width: 600px) {
-  .main__title {
-    font-size: 3rem;
-    margin-top: 3rem;
-  }
-
-  .large-hidden {
-    display: none;
-  }
-
-  .invitadas__grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .container {
-    width: 80%;
-    margin: 0 auto;
-    max-width: 1200px;
-  }
-
   .header {
     display: flex;
     justify-content: space-between;
@@ -442,6 +415,27 @@ body {
 
   .header .menu-icon {
     display: none;
+  }
+
+  .main__title {
+    font-size: 3rem;
+    margin-top: 3rem;
+  }
+
+  .large-hidden {
+    display: none;
+  }
+
+  .invitadas__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
   }
 
   .main {
@@ -487,7 +481,6 @@ body {
   }
 
   .episodes__title {
-    font-weight: normal;
     margin-left: 5rem;
   }
 
