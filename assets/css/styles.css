@@ -385,7 +385,22 @@ body {
   border-radius: 1%;
 }
 
-@media screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
+  .main__title {
+    font-size: 3rem;
+    margin-top: 3rem;
+  }
+
+  .large-hidden {
+    display: none;
+  }
+
+  .invitadas__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 992px) {
   .container {
     width: 80%;
     margin: 0 auto;
@@ -423,7 +438,7 @@ body {
   }
 
   .main__title {
-    font-size: 64px;
+    font-size: 4rem;
     margin-top: 6rem;
   }
 
@@ -444,10 +459,6 @@ body {
 
   .button--small {
     max-width: 226px;
-  }
-
-  .main__title {
-    display: flex;
   }
 
   .topic__icon {
