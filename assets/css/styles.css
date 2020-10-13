@@ -163,6 +163,7 @@ body {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 36px;
   line-height: 42px;
+  font-weight: normal;
 }
 
 .main__title p:last-child::after {
@@ -220,6 +221,12 @@ body {
   margin-bottom: 1rem;
 }
 
+.episode__cover {
+  height: 240px;
+  width: 100%;
+  border: none;
+}
+
 .divider {
   position: absolute;
   top: 0;
@@ -261,6 +268,7 @@ body {
   color: #060a24;
   letter-spacing: 0;
   line-height: 42px;
+  font-weight: normal;
 }
 
 .about__image {
@@ -288,6 +296,7 @@ body {
   color: #060a24;
   letter-spacing: 0;
   line-height: 42px;
+  font-weight: normal;
 }
 
 .topic__container {
@@ -300,6 +309,7 @@ body {
   text-align: left;
   margin-bottom: 2rem;
   width: 70%;
+  font-weight: normal;
 }
 
 .topic__p {
@@ -354,6 +364,7 @@ body {
   line-height: 42px;
   text-align: center;
   margin: 4.5rem 0.5rem 0.5rem;
+  font-weight: normal;
 }
 
 .footer {
@@ -476,6 +487,7 @@ body {
   }
 
   .episodes__title {
+    font-weight: normal;
     margin-left: 5rem;
   }
 
